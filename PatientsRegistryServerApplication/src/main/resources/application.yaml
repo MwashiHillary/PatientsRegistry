@@ -1,0 +1,24 @@
+spring:
+  data:
+    mongodb:
+      host: host.docker.internal
+      port: 27017
+      grid-fs-database: images
+    jackson:
+      default-property-inclusion: non_null
+      serialization:
+        indent-output: true
+  logging:
+    level:
+      root: INFO
+      sql: DEBUG
+      web: TRACE
+      com.example: DEBUG
+      org.springframework.security: DEBUG
+
+  main:
+    allow-bean-definition-overriding: true
+
+#  main:
+#    allow-bean-definition-overriding=true
+
