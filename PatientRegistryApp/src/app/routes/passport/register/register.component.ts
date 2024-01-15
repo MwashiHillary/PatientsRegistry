@@ -1,4 +1,4 @@
-import { AuthService } from './../../../auth/core/auth.service';
+import { AuthService } from '../../../core/auth.service';
 import { HttpContext } from '@angular/common/http';
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, OnDestroy } from '@angular/core';
 import { AbstractControl, FormBuilder, FormControl, ReactiveFormsModule, Validators } from '@angular/forms';

@@ -1,0 +1,595 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.2.8",
+  "deps": {
+    "@angular/animations": "^17.0.0",
+    "@angular/cdk": "^17.0.5",
+    "@angular/common": "^17.0.0",
+    "@angular/compiler": "^17.0.0",
+    "@angular/core": "^17.0.0",
+    "@angular/forms": "^17.0.0",
+    "@angular/material": "^17.0.5",
+    "@angular/platform-browser": "^17.0.0",
+    "@angular/platform-browser-dynamic": "^17.0.0",
+    "@angular/platform-server": "^17.0.0",
+    "@angular/router": "^17.0.0",
+    "@angular/service-worker": "^17.0.0",
+    "@angular/ssr": "^17.0.10",
+    "@delon/abc": "^17.0.5",
+    "@delon/acl": "^17.0.5",
+    "@delon/auth": "^17.0.5",
+    "@delon/cache": "^17.0.5",
+    "@delon/chart": "^17.0.5",
+    "@delon/form": "^17.0.5",
+    "@delon/mock": "^17.0.5",
+    "@delon/theme": "^17.0.5",
+    "@delon/util": "^17.0.5",
+    "express": "^4.18.2",
+    "ng-alain": "^17.0.5",
+    "ng-zorro-antd": "^17.0.1",
+    "rxjs": "~7.8.0",
+    "screenfull": "^6.0.2",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.2",
+    "@angular-devkit/build-angular": "^17.0.10",
+    "@angular-eslint/builder": "^17.0.0",
+    "@angular-eslint/eslint-plugin": "^17.0.0",
+    "@angular-eslint/eslint-plugin-template": "^17.0.0",
+    "@angular-eslint/schematics": "^17.0.0",
+    "@angular-eslint/template-parser": "^17.0.0",
+    "@angular/cli": "^17.0.10",
+    "@angular/compiler-cli": "^17.0.0",
+    "@angular/language-service": "^17.0.0",
+    "@delon/testing": "^17.0.5",
+    "@ng-util/monaco-editor": "^17.0.0",
+    "@types/express": "^4.17.17",
+    "@types/jasmine": "~5.1.0",
+    "@types/node": "^18.18.0",
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "~9.0.0",
+    "eslint-plugin-deprecation": "~2.0.0",
+    "eslint-plugin-import": "~2.29.0",
+    "eslint-plugin-jsdoc": "~46.5.1",
+    "eslint-plugin-prefer-arrow": "~1.2.3",
+    "eslint-plugin-prettier": "~5.0.1",
+    "husky": "^8.0.3",
+    "jasmine-core": "~5.1.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "lint-staged": "^14.0.1",
+    "ng-alain-plugin-theme": "^16.0.0",
+    "ngx-tinymce": "^17.0.0",
+    "prettier": "^3.1.0",
+    "source-map-explorer": "^2.5.3",
+    "stylelint": "^15.11.0",
+    "stylelint-config-clean-order": "^5.2.0",
+    "stylelint-config-standard": "^34.0.0",
+    "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
+    "typescript": "~5.2.2"
+  },
+  "pathMappings": {
+    "@shared": [
+      "src/app/shared/index"
+    ],
+    "@core": [
+      "src/app/core/index"
+    ],
+    "@env/*": [
+      "src/environments/*"
+    ],
+    "@_mock": [
+      "_mock/index"
+    ]
+  },
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "17241496168097493888"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "12531536807739088404"
+      },
+      {
+        "file": ".eslintrc.js",
+        "hash": "11881895294837528875"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "4689145951703824387"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "17589486658349962028"
+      },
+      {
+        "file": ".nvmrc",
+        "hash": "2001276071725212696"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "1459114306852511962"
+      },
+      {
+        "file": ".prettierrc.js",
+        "hash": "790205639848348620"
+      },
+      {
+        "file": ".stylelintrc.js",
+        "hash": "8493734837762169200"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "16217735606173356518"
+      },
+      {
+        "file": "_mock/README.md",
+        "hash": "8727848908319072118"
+      },
+      {
+        "file": "_mock/_user.ts",
+        "hash": "435817078465085059"
+      },
+      {
+        "file": "_mock/index.ts",
+        "hash": "15283639748525218839"
+      },
+      {
+        "file": "angular.json",
+        "hash": "15763205455157643549"
+      },
+      {
+        "file": "ng-alain.json",
+        "hash": "15919895574518919791"
+      },
+      {
+        "file": "ngsw-config.json",
+        "hash": "9785530155750763730"
+      },
+      {
+        "file": "package.json",
+        "hash": "13770083233313637963"
+      },
+      {
+        "file": "proxy.conf.js",
+        "hash": "17810521047770676292"
+      },
+      {
+        "file": "server.ts",
+        "hash": "17556996765790181515"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "15530709110909265371"
+      },
+      {
+        "file": "src/app/app.config.server.ts",
+        "hash": "15184490126418035619"
+      },
+      {
+        "file": "src/app/app.config.ts",
+        "hash": "3809188456404017068"
+      },
+      {
+        "file": "src/app/auth/auth-service.service.spec.ts",
+        "hash": "3226961743523345164"
+      },
+      {
+        "file": "src/app/auth/auth-service.service.ts",
+        "hash": "14811638230133236251"
+      },
+      {
+        "file": "src/app/auth/core/auth-guard.ts",
+        "hash": "12285840261206973230"
+      },
+      {
+        "file": "src/app/auth/core/auth-inteceptor.ts",
+        "hash": "10608214001851898173"
+      },
+      {
+        "file": "src/app/auth/core/auth.service.ts",
+        "hash": "8671916356796713383"
+      },
+      {
+        "file": "src/app/auth/core/core.module.ts",
+        "hash": "7227577708071321672"
+      },
+      {
+        "file": "src/app/auth/core/credentials.model.ts",
+        "hash": "1495021802136745988"
+      },
+      {
+        "file": "src/app/auth/core/load-guard.ts",
+        "hash": "14696921756680518870"
+      },
+      {
+        "file": "src/app/auth/core/token-inteceptor.ts",
+        "hash": "48787733914203886"
+      },
+      {
+        "file": "src/app/auth/core/token-storage.ts",
+        "hash": "365770382873989805"
+      },
+      {
+        "file": "src/app/auth/core/user.model.ts",
+        "hash": "8335165018265246235"
+      },
+      {
+        "file": "src/app/core/README.md",
+        "hash": "14115985955247817739"
+      },
+      {
+        "file": "src/app/core/i18n/i18n.service.spec.ts",
+        "hash": "9142998908005363771"
+      },
+      {
+        "file": "src/app/core/i18n/i18n.service.ts",
+        "hash": "2474641352103855760"
+      },
+      {
+        "file": "src/app/core/index.ts",
+        "hash": "14778303435386397915"
+      },
+      {
+        "file": "src/app/core/net/default.interceptor.ts",
+        "hash": "4376073125538685097"
+      },
+      {
+        "file": "src/app/core/net/helper.ts",
+        "hash": "5039975290156364965"
+      },
+      {
+        "file": "src/app/core/net/index.ts",
+        "hash": "7767068051043282610"
+      },
+      {
+        "file": "src/app/core/net/refresh-token.ts",
+        "hash": "13665697814790507760"
+      },
+      {
+        "file": "src/app/core/start-page.guard.ts",
+        "hash": "5130562679373962237"
+      },
+      {
+        "file": "src/app/core/startup/startup.service.ts",
+        "hash": "17857967965055880466"
+      },
+      {
+        "file": "src/app/layout/basic/README.md",
+        "hash": "15150133680319102296"
+      },
+      {
+        "file": "src/app/layout/basic/basic.component.ts",
+        "hash": "17163862202804368213"
+      },
+      {
+        "file": "src/app/layout/basic/widgets/clear-storage.component.ts",
+        "hash": "6271171907746001738"
+      },
+      {
+        "file": "src/app/layout/basic/widgets/fullscreen.component.ts",
+        "hash": "1949763075371100256"
+      },
+      {
+        "file": "src/app/layout/basic/widgets/i18n.component.ts",
+        "hash": "7060182760875269739"
+      },
+      {
+        "file": "src/app/layout/basic/widgets/search.component.ts",
+        "hash": "12598319975064107875"
+      },
+      {
+        "file": "src/app/layout/basic/widgets/user.component.ts",
+        "hash": "1863454427062600454"
+      },
+      {
+        "file": "src/app/layout/blank/README.md",
+        "hash": "96499171909667287"
+      },
+      {
+        "file": "src/app/layout/blank/blank.component.ts",
+        "hash": "5878671836874839313"
+      },
+      {
+        "file": "src/app/layout/index.ts",
+        "hash": "7583126380008583301"
+      },
+      {
+        "file": "src/app/layout/passport/passport.component.less",
+        "hash": "6280702872749362936"
+      },
+      {
+        "file": "src/app/layout/passport/passport.component.ts",
+        "hash": "18285202285364386203"
+      },
+      {
+        "file": "src/app/routes/dashboard/dashboard.component.html",
+        "hash": "16611542179954733356"
+      },
+      {
+        "file": "src/app/routes/dashboard/dashboard.component.ts",
+        "hash": "6180381720505585196"
+      },
+      {
+        "file": "src/app/routes/exception/exception.component.ts",
+        "hash": "6637451944584656636"
+      },
+      {
+        "file": "src/app/routes/exception/routes.ts",
+        "hash": "3633438125884164266"
+      },
+      {
+        "file": "src/app/routes/exception/trigger.component.ts",
+        "hash": "7647217762200172883"
+      },
+      {
+        "file": "src/app/routes/passport/callback.component.ts",
+        "hash": "2765780287896458479"
+      },
+      {
+        "file": "src/app/routes/passport/lock/lock.component.html",
+        "hash": "6179083595511104092"
+      },
+      {
+        "file": "src/app/routes/passport/lock/lock.component.less",
+        "hash": "1403928671149850568"
+      },
+      {
+        "file": "src/app/routes/passport/lock/lock.component.ts",
+        "hash": "16204322367424171739"
+      },
+      {
+        "file": "src/app/routes/passport/login/login.component.html",
+        "hash": "9204051469367625597"
+      },
+      {
+        "file": "src/app/routes/passport/login/login.component.less",
+        "hash": "3180447779385417739"
+      },
+      {
+        "file": "src/app/routes/passport/login/login.component.ts",
+        "hash": "7812399441361390520"
+      },
+      {
+        "file": "src/app/routes/passport/register-result/register-result.component.html",
+        "hash": "13518136019845764776"
+      },
+      {
+        "file": "src/app/routes/passport/register-result/register-result.component.ts",
+        "hash": "8207538575331957497"
+      },
+      {
+        "file": "src/app/routes/passport/register/register.component.html",
+        "hash": "10166694261329004353"
+      },
+      {
+        "file": "src/app/routes/passport/register/register.component.less",
+        "hash": "13864708308811707277"
+      },
+      {
+        "file": "src/app/routes/passport/register/register.component.ts",
+        "hash": "3571855513213150489"
+      },
+      {
+        "file": "src/app/routes/passport/routes.ts",
+        "hash": "6805012275638407695"
+      },
+      {
+        "file": "src/app/routes/routes.ts",
+        "hash": "5782004755455539232"
+      },
+      {
+        "file": "src/app/shared/cell-widget/index.ts",
+        "hash": "3974720787891642793"
+      },
+      {
+        "file": "src/app/shared/index.ts",
+        "hash": "7378694471613980124"
+      },
+      {
+        "file": "src/app/shared/json-schema/README.md",
+        "hash": "9064499340803331047"
+      },
+      {
+        "file": "src/app/shared/json-schema/index.ts",
+        "hash": "11742882381603208598"
+      },
+      {
+        "file": "src/app/shared/json-schema/test/test.widget.ts",
+        "hash": "10100157633498569352"
+      },
+      {
+        "file": "src/app/shared/shared-delon.module.ts",
+        "hash": "14404138012037060552"
+      },
+      {
+        "file": "src/app/shared/shared-imports.ts",
+        "hash": "7022691158266424209"
+      },
+      {
+        "file": "src/app/shared/shared-zorro.module.ts",
+        "hash": "3311420559228431690"
+      },
+      {
+        "file": "src/app/shared/shared.module.ts",
+        "hash": "12398789494276551697"
+      },
+      {
+        "file": "src/app/shared/st-widget/README.md",
+        "hash": "16330693828846806570"
+      },
+      {
+        "file": "src/app/shared/st-widget/index.ts",
+        "hash": "14458183780706339545"
+      },
+      {
+        "file": "src/app/shared/utils/yuan.ts",
+        "hash": "18292847381901833494"
+      },
+      {
+        "file": "src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/assets/color.less",
+        "hash": "2375671570276908466"
+      },
+      {
+        "file": "src/assets/hospital.png",
+        "hash": "15939806539642515487"
+      },
+      {
+        "file": "src/assets/logo-color.svg",
+        "hash": "11043122361829452097"
+      },
+      {
+        "file": "src/assets/logo-full.svg",
+        "hash": "2306024733314928308"
+      },
+      {
+        "file": "src/assets/logo.svg",
+        "hash": "15411846171236213112"
+      },
+      {
+        "file": "src/assets/style.compact.css",
+        "hash": "695401499157537064"
+      },
+      {
+        "file": "src/assets/style.dark.css",
+        "hash": "5349631297479445795"
+      },
+      {
+        "file": "src/assets/tmp/app-data.json",
+        "hash": "14127401894385328755"
+      },
+      {
+        "file": "src/assets/tmp/i18n/el-GR.json",
+        "hash": "16428851733342839158"
+      },
+      {
+        "file": "src/assets/tmp/i18n/en-US.json",
+        "hash": "17486726576611473023"
+      },
+      {
+        "file": "src/assets/tmp/i18n/es-ES.json",
+        "hash": "13475760687218568708"
+      },
+      {
+        "file": "src/assets/tmp/i18n/fr-FR.json",
+        "hash": "6051649414821855941"
+      },
+      {
+        "file": "src/assets/tmp/i18n/hr-HR.json",
+        "hash": "3737457365932312205"
+      },
+      {
+        "file": "src/assets/tmp/i18n/it-IT.json",
+        "hash": "13257384325292790693"
+      },
+      {
+        "file": "src/assets/tmp/i18n/ko-KR.json",
+        "hash": "5917244660900994068"
+      },
+      {
+        "file": "src/assets/tmp/i18n/pl-PL.json",
+        "hash": "14341476580670806621"
+      },
+      {
+        "file": "src/assets/tmp/i18n/sl-SI.json",
+        "hash": "16593878870988766232"
+      },
+      {
+        "file": "src/assets/tmp/i18n/tr-TR.json",
+        "hash": "8852613894540885727"
+      },
+      {
+        "file": "src/assets/tmp/i18n/zh-CN.json",
+        "hash": "8779427506196882360"
+      },
+      {
+        "file": "src/assets/tmp/i18n/zh-TW.json",
+        "hash": "15405014343818937716"
+      },
+      {
+        "file": "src/assets/tmp/img/avatar.jpg",
+        "hash": "15542503750579599686"
+      },
+      {
+        "file": "src/assets/zorro.svg",
+        "hash": "8100927907569258287"
+      },
+      {
+        "file": "src/environments/environment.cors.ts",
+        "hash": "11688759618526912592"
+      },
+      {
+        "file": "src/environments/environment.prod.ts",
+        "hash": "8560068821866279793"
+      },
+      {
+        "file": "src/environments/environment.ts",
+        "hash": "6505169451758708585"
+      },
+      {
+        "file": "src/favicon.ico",
+        "hash": "6698235611488223449"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "17807121582790034005"
+      },
+      {
+        "file": "src/main.server.ts",
+        "hash": "9257623809215978365"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "2101694235454666620"
+      },
+      {
+        "file": "src/style-icons-auto.ts",
+        "hash": "12233559002036146056"
+      },
+      {
+        "file": "src/style-icons.ts",
+        "hash": "15337847334204427108"
+      },
+      {
+        "file": "src/styles.less",
+        "hash": "5046507609864437896"
+      },
+      {
+        "file": "src/styles/index.less",
+        "hash": "2917954890128038984"
+      },
+      {
+        "file": "src/styles/theme.less",
+        "hash": "14251723086664166636"
+      },
+      {
+        "file": "src/typings.d.ts",
+        "hash": "1777631162292135227"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "2442507913137902887"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "16191322747024132090"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "5122839733245053999"
+      }
+    ]
+  }
+}

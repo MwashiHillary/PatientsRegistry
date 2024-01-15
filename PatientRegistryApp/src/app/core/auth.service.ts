@@ -7,7 +7,7 @@ import { distinctUntilChanged, map } from 'rxjs/operators';
 import { Credentials } from './credentials.model';
 import { TokenStorage } from './token-storage';
 import { User } from './user.model';
-import { environment } from '../../../environments/environment';
+import { environment } from '../../environments/environment';
 
 const apiUrl = environment['baseApiUrl'];
 
