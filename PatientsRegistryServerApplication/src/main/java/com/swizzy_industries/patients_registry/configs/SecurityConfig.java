@@ -47,18 +47,6 @@ import static org.springframework.security.web.server.util.matcher.ServerWebExch
 public class SecurityConfig {
 
     @Bean
-    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
-        // @formatter:off
-        http
-                .authorizeHttpRequests((authorize) -> authorize
-                        .anyRequest().authenticated()
-                )
-                .x509(withDefaults());
-        // @formatter:on
-        return http.build();
-    }
-
-    @Bean
     SecurityWebFilterChain springWebFilterChain(ServerHttpSecurity http,
                                                 ServerSecurityContextRepository serverSecurityContextRepository,
                                                 AuthenticationWebFilter loginFilter,
